@@ -1,21 +1,141 @@
 body{
     background-color: rgb(255, 255, 255);
 color: rgb(37, 33, 33);
- text-align: center;
+ margin: 0px;
+ font-family:Lora,serif;
+ font-size: 18px;
+}
+
+
+header{
+    background-color: rgb(20, 56, 38);
+    color: seashell;
+    
+}
+
+#capa{
+background:url(img/fundo-de-folhagem-tropical_53876-91352.jpg);
+background-size:cover;
+width:100%;
+height: 65%;
+text-align: center;
+
 
 }
 
 #f3 {
     color: rgb(8, 146, 49);
     font-size: 45px;
-    
+    padding-top: 125px; 
+    margin-bottom: 10px;
+    text-shadow: black 5px 3px 5px;
+     
 }
  
-#divisor{
-    height: 30px;
-}
-#ilha{
+#subtitulo{
+    border-top: aliceblue solid 1px ;
+    color: aliceblue;
+    margin: 0px 230px 20px ;
     
     
 }
 
+#imagem2{
+    height: 30px;
+    border: darkgreen solid 2px;
+    margin: 0px 250px;
+    
+}
+
+
+ #ODS{
+     text-decoration: none;
+     color: aliceblue;
+     border: 2px solid;
+     padding: 1px 1px;
+     margin-top: 100px;
+     border-radius: 40px;
+    }
+
+a:hover{
+    background-color:rgb(50, 68, 35);
+    border: dotted 2px;
+}
+
+#texto1{
+    border: aquamarine solid 2px;
+    margin: 110px 10px;
+    width:50% ;
+    height: 30%;
+     float :left  
+}
+
+#imagem1{ 
+    border: darkgoldenrod solid 2px;
+    float: left;
+    width: 45%;
+    height: 60%;
+    margin: 30px 10px;
+}
+
+ #imagem2{
+     height: 30px;
+    border: darkgreen solid 2px;
+     margin: -85px 200px;
+     
+}
+
+#titulo1{
+    border: blueviolet solid 2px;
+    float: left;
+    margin: -55px 20px;
+}
+
+#texto3{
+    border: blue solid 2px;
+    float: left;
+    margin: 0px 10px;
+}
+
+#titulo2{
+    border: chocolate solid 2px;
+    clear: both;
+    margin: 110px  20px 0px 20px;
+}
+
+#texto4{
+    border: crimson solid 2px;
+   float: left;
+}
+
+#videio1{
+    border: darkslategray solid 2px;
+}
+
+#texto5{
+    border: darkgoldenrod solid 2px;
+    float:left
+}
+
+footer{
+    text-decoration: none;
+    background-color: rgb(20, 56, 38);
+    color: seashell;
+}
+
+
+@media screen and (max-width:800px){
+    body{
+        font-size: 5vw;
+        
+    }
+
+    section{
+        max-width: 100%;
+    }
+
+    #imagem1{
+        max-width:50%;
+    }
+
+}
